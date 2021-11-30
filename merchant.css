@@ -27,12 +27,15 @@ nav{
 form{
     background-color: white;
     color: black;
-    height: 70vh;
+    height: auto;
 }
 
 h4{
     padding-top: 3rem;
     padding-bottom: 1.5rem;
+}
+img{
+    max-width: 100%;
 }
 .form-control{
     background-color: rgba(208, 206, 211, 0.425);
