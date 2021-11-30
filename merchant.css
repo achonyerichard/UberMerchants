@@ -1,0 +1,112 @@
+html{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: black !important;
+    /* padding-left: 20rem !important; */
+}
+#nav-image{
+    height: 4rem;
+    width: 6rem;
+    /* padding-left: 10rem; */
+    /* margin-right: 70rem; */
+}
+.background{
+    background-image:url("https://www.uber-assets.com/image/upload/v1622578671/assets/65/2f2db1-bcfd-4d18-b406-8e4af61686e4/original/merchanteatsbackground.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 10px 10px 265px 121px rgba(0,0,0,0.64);
+    -moz-box-shadow: inset 10px 10px 265px 121px rgba(0,0,0,0.64);
+    box-shadow: inset 10px 10px 265px 121px rgba(0,0,0,0.64);
+    padding-bottom: 10rem;
+
+}
+form{
+    background-color: white;
+    color: black;
+    height: 70vh;
+}
+
+h4{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+.form-control{
+    background-color: rgba(208, 206, 211, 0.425);
+}
+.forms{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.policy{
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}
+.btn-form{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.why{
+    padding-top: 3rem;
+}
+.card{
+    border: none !important;
+}
+.growth{
+    padding-top: 6rem;
+}
+.partners{
+  padding-top: 6rem;
+}
+.partners-col{
+    padding-top: 4rem;
+}
+
+.jumbotron{
+    width: 100%;
+    background-color: black !important;
+    height: auto;
+}
+
+.bottom{
+    padding-top: 2rem;
+}
+
+.accordion{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    border: none !important;
+}
+.accordion-item{
+    border-left: none;
+    border-right: none;
+}
+
+.foot{
+   padding-left: 10rem;
+   background-color: black;
+   padding-top: 5rem;
+   width: 100%;
+   padding-right: 2.5rem;
+ }
+
+ @media screen and (max-width:425px) {
+     .background{
+         background-color: #000;
+     }
+     footer {
+        padding-left: 1rem !important;   
+     }
+     .logos{
+         padding-bottom: 1rem;
+     }
+     .lang{
+         padding-bottom: 1rem;
+     }
+ }
